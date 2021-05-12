@@ -4,6 +4,14 @@ Scrape, preprocess, gridsearch, votingclassifer, train model, predict.
 
 indeed.com scraping full job description to use variouls classification models. Also provides prediction script to test job descriptions to predict job title
 
+---- file desc ----
+chromedriver: driver to interact with web through chromebrowser
+fit_counter.joblib: fitting counter X train (job desc)
+trained_model.joblib: VT trained model
+test_set.csv: data to perform prediction (will show 100% accuracy because it is made from scraped data for code test) / changeable
+new_test_set_prediciton: prediction outcome
+
+---- script desc ----
 ## 01_Scraping
 
 This script scrapes full job description and job title from indeed.com using selenium.
